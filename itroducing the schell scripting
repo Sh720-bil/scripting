@@ -1,0 +1,24 @@
+#!/bin/bash
+# This is a comment
+echo "Hello, World!"
+name="DevOps"count=5
+((count++))
+echo "Count: $count"
+if [ "$var" == "value" ]; then
+    echo "Variable is equal to 'value'"
+fi
+for fruit in apple banana cherry; do
+    echo "I like $fruit"
+done
+count=0
+while [ $count -lt 5 ]; do
+    echo "Count: $count"
+    ((count++))
+done
+say_hello() {
+    echo "Hello, $1!"
+}
+
+say_hello "Alice"while read line; do
+    echo "Line: $line"
+done < file.txt
